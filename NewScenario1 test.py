@@ -97,9 +97,9 @@ for w in r2:
 s3=[]
 for w in r3:
     s3.append(dic[w])
-s1=[0]+s1+[len(r1)]
-s2=[0]+s2+[len(r1)]
-s3=[0]+s3+[len(r1)]
+s1=[0]+s1+[len(r1)+1]
+s2=[0]+s2+[len(r1)+1]
+s3=[0]+s3+[len(r1)+1]
 invdic={}
 for w in dic:
     invdic[dic[w]]=w
