@@ -22,6 +22,10 @@ The basic idea is to construct a 3-uniform hypergraph and transform the problem 
 For a 3-uniform hypergraph, there are some vertices, and certain vertex triples are linked by 3-hyperedges.
 This algorithm does not always produce the correct result. 
 
+Scenario3 random test.py tests the performance of Algorithm 5 on random graphs. We randomly generate graphs, and check whether Algorithm 5 can produce the correct result (compared to a brute-force searching algorithm). When generating the random graph, we test different vertex numbers and probabilities to have an edge. The success rates are outputed.
+
+Scenario4 random test.py tests the performance of Algorithm 6 on random graphs. We randomly generate graphs, and check whether Algorithm 6 can produce the correct result (compared to a brute-force searching algorithm). When generating the random graph, we test different vertex numbers and probabilities to have an edge. The success rates are outputed.
+
 NewScenario1 test.py runs Algorithms 1,2 on the gene sequence data (no_repeats_CP007xxx.1.txt) to find transposons.
 
 NewScenario2 test.py runs Algorithms 3,4 on the gene sequence data (no_repeats_CP007xxx.1.txt) to find transposons.
